@@ -3,6 +3,7 @@
   "version": "1.5.0",
   "main": "./dist/pretender.js",
   "license": "MIT",
+  "types": "index.d.ts",
   "scripts": {
     "pretest": "npm run build",
     "build": "mkdirp dist && browserify ./main.js --standalone Pretender --outfile ./dist/pretender.js",
